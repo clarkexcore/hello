@@ -1,0 +1,47 @@
+#### Two types of INTEGERS types 
+unsigned/signed
+u8/i8 - number stands for number of bits
+usize/isize - max number
+default = i32 (fastest number)
+
+Decimal
+Hex
+Octal
+Binary
+Byte (rare)
+
+underscors are ignored.
+
+f32 (floats)
+f64 (can be slow)
+
+always have a number before .1 so = 0.1
+
+
+#### BOOLEAN
+
+true/false
+
+### CHAR
+is always 4 bytes.
+specified using single quotes.
+strings do not use characters.
+
+
+### Compound types
+
+// Tuple.
+Stores multiple types
+accessed by .syntax.
+
+destructure the tuple like so: let (jet, car jeep) = (1, 2.3, 999);
+
+max of 12 allowed.
+
+
+// Array
+multiple values of the same type. separated by the , or a semi-colon = let buf: [u8: 3] = [1,2,3];
+index values with [] brackets;
+arrays have a limit of 32 (vectors are used)
+
+
